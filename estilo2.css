@@ -1,19 +1,19 @@
 body {
 	background-color:#FFFDE9; 
-	margin: 20%;
+	margin: 15%;
 	text-align: center;
 	font-family: 'Josefin Slab', serif;
 }
 
 h1 {
-	text-align: center;
+	
 	color:  red;
 	text-decoration: underline;
 	
 }
 
 h2 {
-	text-align: center;
+	
 	color: blue;
 	font-family: 'Courier New';
 	padding-right: 50px;
@@ -25,14 +25,14 @@ h2 {
 }
 
 h3 {
-	text-align: center;
+	
 	font-size: 120%;
 }
 
 p {
 	font-size: 14pt;
 	color: default;
-	text-align: center;
+	
 	
 }
 
@@ -52,7 +52,7 @@ a:link {
 
 a:visited {
 	color: #1DCF2D;
-	text-align: center;
+	
 }
 
 table{
