@@ -108,7 +108,7 @@ tr:nth-child(even){  /* PARES */
 	background-color: #F7FA49;
 }
 tr:nth-child(odd){   /* INPARES */
-	background-color: #FA6F79;
+	background-color: white;
 }
 
 .info{
