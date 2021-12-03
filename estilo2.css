@@ -1,6 +1,9 @@
 body {
 	background-color:#FFFDE9; 
-	margin: 5%;
+	margin-top: 0%;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-bottom: 5%;
 	text-align: center;
 	font-family: 'Josefin Slab', serif;
 }
@@ -203,7 +206,7 @@ footer {
 	font-family:'Bonheur Royale', cursive;
 	font-size: 200%;
 }
-#listalineal li {
+.listalineal li {
 	display: inline;
 	padding: 3%;
 	text-decoration: none;
@@ -216,4 +219,8 @@ footer {
 #resaltoazul{
 	color: #00389A;
 	text-decoration: none;
+}
+
+#tablasZA13 {
+	margin-left: 30%;
 }
