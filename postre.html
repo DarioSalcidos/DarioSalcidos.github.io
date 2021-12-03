@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="gl">
+
+<head>
+  <title>Ciclo Medio SMR </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="container">
+      <h2>Mejores postres 2021-2022</h2>
+      <p>IEs A Sangriña</p>
+      
+    </div>
+    <h1>Postres deliciosos</h1>
+    <p>No apto para gente fitness</p>
+    <small class="text-muted">Perfecto para tener diabetes</small>
+
+    
+    <div id="demo" class="carousel slide" data-ride="carousel">
+    ​
+    <!-- Indicadores: raias debaixo das imaxes-->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0"></li>
+      <li data-target="#demo" data-slide-to="1" class="active"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+
+    <!-- Slideshow -->
+    <div class="carousel-inner">
+      <!-- Imaxe enooorme -->
+      <div class="carousel-item">
+        <img class="d-block mx-auto" src="imaxes/tarta1.png" alt="Aquí debería saír a miña imaxe" width="300px" height="200px">
+      </div>
+
+      <!--    Quen leva active é o primeiro que sae-->      
+      <div class="carousel-item active" >
+        <img class="d-block mx-auto" src="imaxes/tarta2.png" alt="Aquí debería saír a miña imaxe" width="300px" heigh="200px">
+      </div>
+      <!-- Imaxe chiquitina -->
+      <div class="carousel-item">
+        <img class="d-block mx-auto" src="imaxes/tarta3.png" alt="Aquí debería saír a miña imaxe" width="300px" height="200px">
+      </div>
+
+    </div>
+
+    <!-- Frechiñas dereita e esquerda -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+  ​
+
+    <div class="jumbotron">
+      <h1>Sobre el postre</h1>
+      <p>Este postre comunmente conocido como tarta de la abuela es el ganador de recetas de postre 2021-2022</p>
+    </div>
+    <p>Edición limitada</p>
+    <p>Tristemente la abuela ha fallecido</p>
+
+    <div class="container">
+      <h2>Botones para reacciones</h2>
+      <a href="#" class="btn btn-info" role="button">No me ha gustado</a>
+      <button type="button" class="btn btn-info">Me ha salido mal la receta</button>
+      
+      <button type="button" class="btn btn-outline-dark">Me ha gustado</button>
+    </div>
+
+    <div class="container">
+      <h2>Por cada click en el botón se donará una tarta a un país de África</h2>
+      <p>Gracias (Solo se donará una por dispositivo)</p>
+      <button type="button" class="btn btn-outline-dark">Donar</button>
+      
+    </div>
+
+
+
+  </div>
+</body>
+
+</html>
